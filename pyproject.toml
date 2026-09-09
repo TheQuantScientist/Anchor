@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-auto-anchor"
+version = "0.1.0"
+description = "Statistical AutoAnchor adaptation for cryptocurrency walk-forward forecasting"
+requires-python = ">=3.10"
+dependencies = ["numpy==2.2.6", "pandas==2.3.1", "scipy==1.15.3"]
+
+[tool.setuptools.packages.find]
+include = ["anchor*"]

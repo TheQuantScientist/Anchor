@@ -1,0 +1,16 @@
+{
+  "model": "RegimeAutoAnchor-v1",
+  "symbols": ["BTCUSDT", "ETHUSDT", "BNBUSDT", "XRPUSDT", "ADAUSDT", "DOGEUSDT", "SOLUSDT", "DOTUSDT", "LTCUSDT", "BCHUSDT", "LINKUSDT", "XLMUSDT", "ATOMUSDT", "ETCUSDT", "TRXUSDT", "XTZUSDT", "VETUSDT", "FILUSDT", "THETAUSDT", "UNIUSDT", "AAVEUSDT", "NEARUSDT", "ALGOUSDT", "AVAXUSDT", "EGLDUSDT", "SANDUSDT", "MANAUSDT", "AXSUSDT", "CRVUSDT", "RUNEUSDT"],
+  "data_start": "2022-01-01",
+  "data_end_exclusive": "2026-01-01",
+  "test_start": "2025-01-01",
+  "test_end_exclusive": "2026-01-01",
+  "interval": "1d",
+  "sequence_length": 90,
+  "prediction_length": 7,
+  "stride": 7,
+  "calibration_windows": 104,
+  "calibration_half_life_windows": 26,
+  "regularization": 0.1,
+  "regime_bandwidth": 1.0
+}

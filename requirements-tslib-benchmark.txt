@@ -1,0 +1,2 @@
+-r external/Time-Series-Library/requirements.txt
+torch>=2.0
